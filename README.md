@@ -11,10 +11,9 @@ After downloading and unzipping the data set, place the soc-digg folder into the
 
 The `Data` directory should have the following structure:
 
-- `Soc-digg/`
-  - `output/`
-    - `wc_soc-digg_network.csv`
+- `Data/Soc-digg/`
   - `soc-digg.mtx`
+  - `readme.html`
 
 Make sure to place the `soc-digg` folder into the `Data` directory after downloading and unzipping the dataset.
 
@@ -38,3 +37,18 @@ After running the `preprocess_for_imm.py` script, the following files will be ge
 - `Data/soc-digg/output/wc_soc-digg_attribute.txt`: Text file containing attributes for the network.
 
 Additionally, a log file will be created in the `logs` directory with the format `preprocess_for_imm-<timestamp>.log`.
+
+Overall, the output will look like
+
+```
+- `models/Data/`
+  - `soc-digg/`
+    - `soc-digg.mtx`
+    - `output/`
+      - `soc-digg_incr_dic.json`
+      - `wc_soc-digg_attribute.txt`
+      - `wc_soc-digg_network.csv`
+  - `readme.html`
+- `models/logs/`
+  - `preprocess_for_imm-<timestamp>.log`
+```
