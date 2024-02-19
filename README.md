@@ -19,7 +19,9 @@ Make sure to place the `soc-digg` folder into the `Data` directory after downloa
 
 ```
 
-## To run the preprocess for imm script:
+## Running the Preprocess for IMM script
+
+To run,
 
 ```
 cd models
@@ -28,7 +30,7 @@ python3 preprocess_for_imm.py --fn soc-digg --source-network Data/soc-digg/soc-d
 
 This will generate the following files:
 
-## Generated Files
+### Generated Files
 
 After running the `preprocess_for_imm.py` script, the following files will be generated:
 
