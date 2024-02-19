@@ -41,14 +41,14 @@ Additionally, a log file will be created in the `logs` directory with the format
 Overall, the output will look like
 
 ```
-- `models/Data/`
-  - `soc-digg/`
-    - `soc-digg.mtx`
-    - `output/`
-      - `soc-digg_incr_dic.json`
-      - `wc_soc-digg_attribute.txt`
-      - `wc_soc-digg_network.csv`
-  - `readme.html`
-- `models/logs/`
-  - `preprocess_for_imm-<timestamp>.log`
+|── models/Data/
+|        |── soc-digg/
+|            |── output/
+|                |── soc-digg_incr_dic.json
+|                |── wc_soc-digg_attribute.txt
+|                |── wc_soc-digg_network.csv
+|            |── soc-digg.mtx
+|        |── readme.html
+|── models/logs/`
+|        |── preprocess_for_imm-<timestamp>.log
 ```
