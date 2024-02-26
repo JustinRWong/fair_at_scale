@@ -54,3 +54,7 @@ Overall, the output will look like
 |── models/logs/`
 |        |── preprocess_for_imm-<timestamp>.log
 ```
+
+## References
+- https://github.com/geopanag/IMINFECTOR/tree/master
+- https://arxiv.org/pdf/2306.01587.pdf
